@@ -100,6 +100,12 @@ function createHeadingComponent(level, targetId) {
         });
     };
 
+    const handleHeadingClick = () => {
+      copyToClipboard();
+      // Update URL and scroll to the element
+      window.location.hash = id;
+    };
+
     return React.createElement(
       level,
       {
@@ -108,6 +114,7 @@ function createHeadingComponent(level, targetId) {
           isTarget && 'bg-muted/30'
         ),
         id: id,
+        onClick: handleHeadingClick,
       },
       <>
         <a
