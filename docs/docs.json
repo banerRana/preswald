@@ -18,8 +18,7 @@
             "pages": [
               "introduction",
               "quickstart",
-              "configuration",
-              "coreconcepts"
+              "configuration"
             ]
           },
           {
@@ -28,9 +27,7 @@
               "cli/tutorial",
               "cli/init",
               "cli/run",
-              "cli/deploy",
-              "cli/deployments",
-              "cli/stop"
+              "cli/export"
             ]
           },
           {
@@ -39,12 +36,6 @@
               "usage/examples",
               "usage/troubleshooting"
             ]
-          },
-          {
-            "group": "Contributing",
-            "pages": [
-              "addnewcomponent"
-            ]
           }
         ]
       },
@@ -52,50 +43,58 @@
         "tab": "SDK Reference",
         "groups": [
           {
-            "group": "UI",
+            "group": "Displays",
             "pages": [
-              "sdk/alert",
-              "sdk/button",
-              "sdk/checkbox",
-              "sdk/chat",
-              "sdk/fastplotlib",
-              "sdk/image",
-              "sdk/matplotlib",
-              "sdk/playground",
-              "sdk/plotly",
-              "sdk/progress",
-              "sdk/selectbox",
-              "sdk/separator",
-              "sdk/sidebar",
-              "sdk/slider",
-              "sdk/spinner",
-              "sdk/table",
-              "sdk/text",
-              "sdk/text_input",
-              "sdk/topbar",
-              "sdk/workflow_dag"
+              "displays/text",
+              "displays/table",
+              "displays/matplotlib",
+              "displays/plotly",
+              "displays/image"
+            ]
+          },
+          {
+            "group": "Controls",
+            "pages": [
+              "controls/slider",
+              "controls/selectbox",
+              "controls/checkbox",
+              "controls/text_input"
             ]
           },
           {
             "group": "Data",
             "pages": [
-              "sdk/connect",
-              "sdk/get_df",
-              "sdk/query"
-            ]
-          },
-          {
-            "group": "Workflow",
-            "pages": [
-              "sdk/retrypolicy",
-              "sdk/workflow",
-              "sdk/workflow_analyzer"
+              "data/get_df",
+              "data/query"
             ]
           },
           {
             "group": "Layout",
             "pages": [
-              "layout/guide"
+              "layout/sidebar",
+              "layout/topbar",
+              "layout/sizing"
+            ]
+          },
+          {
+            "group": "Workflow",
+            "pages": [
+              "workflow/retrypolicy",
+              "workflow/workflow",
+              "workflow/workflow_analyzer",
+              "workflow/workflow_dag"
+            ]
+          },
+          {
+            "group": "Deprecated",
+            "pages": [
+              "deprecated/alert",
+              "deprecated/button",
+              "deprecated/chat",
+              "deprecated/playground",
+              "deprecated/progress",
+              "deprecated/separator",
+              "deprecated/spinner"
             ]
           }
         ]
@@ -105,7 +104,7 @@
       "anchors": [
         {
           "anchor": "Community",
-          "href": "https://join.slack.com/t/structuredlabs-users/shared_invite/zt-31vvfitfm-_vG1HR9hYysR_56u_PfI8Q",
+          "href": "https://join.slack.com/t/structuredlabs-users/shared_invite/zt-33zwhyv3l-6Xu4bHL6b6~bI3z9fvlUig",
           "icon": "slack"
         },
         {
